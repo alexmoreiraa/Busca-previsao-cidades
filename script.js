@@ -1,4 +1,4 @@
-const key = "65730819445f198abf50bdd1f1d45f24" ;
+const key = "" ;
 
 function editarDadosNaTela(dados) {
     document.querySelector(".text-cidade").innerHTML =  dados.name;
