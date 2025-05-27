@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    height: 100vh; /*100vh OCUPA A TELA TODA*/
+    width: 100vw;  /*100VW OCUPA A TELA TODA*/
+    display: flex;
+    align-items: center; /*ALINHA OS ITEMS VERTICAL*/
+    justify-content: center; /*ALINHA OS ITENS NA HOROZONTAL*/
+    background-image: url("https://picsum.photos/1920/1089?random=1") ;
+}
+
+.conteiner-principal {
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 20px;
+    padding: 20px;
+    width: 95%;
+    max-width: 450px;
+}
+
+.input-cidade {
+    border: none;
+    outline: none; /*REMOVE A LINHA AZUL NA CAIXA DO INPUT*/
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 18px;
+    background-color: #7c7c7c2b;
+    color: white;
+    width: calc(100% - 50px); /*FAZ COM QUE O INPUT OCUPE 100% MENOS 100PX*/
+}
+
+.button-pesquisar {
+    float: right; /*JOGA O BOTAO TODO PARA DIREITA*/
+    font-size: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 10px;
+    
+}
+
+.button-pesquisar i {
+    color: black;
+}
+
+.conteiner-tempo-cidade {
+    margin-top: 30px;
+}
+
+.text-cidade{
+    color: white;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.temperatura {
+    font-size: 18px;
+    color: white;
+    margin-top: 10px;
+}
+
+.temp-min-max {
+     font-size: 18px;
+    color: white;
+    margin-top: 10px;
+}
+
+.conteiner-imagem-tempo {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+
+
+
+.text-nublado {
+    color: white;
+    font-size: 16px;
+    margin-left: 10px;
+    text-transform: capitalize; /* DEIXA SEMPRE A PRIMEIRA LETRA MAIUSCULA*/
+}
+
+.text-umidade {
+    margin-top: 10px;
+    font-size: 14px;
+    color: white;
+}
